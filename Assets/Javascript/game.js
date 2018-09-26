@@ -1,12 +1,6 @@
 // Create a trivia game
-// "play now" button to start
-// 10 timed questions displayed one at a time
-// If correct, notify player they are correct w/ text & a picture
-// If incorrect or timer runs out, notify player incorrect or times up w/ a text & a picture
-// When game is over display score and some text & a picture
-// ***Create a play again button!***
 
-// **** Global variables ****
+// *Global variables *
 // Trivia questions contain the question, answer list and answer
 var triviaQuestions = [{
     question: "Who plays Dr. Emmett Brown in all 3 movies?",
@@ -93,7 +87,7 @@ $('#playAgain').on('click', function () {
 });
 
 
-// **** Functions ****
+// * Functions *
 // new game
 
 function newGame() {
